@@ -1,11 +1,49 @@
 /*Add your CSS here*/
+/*universal selector*/
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+}
 
+h1 {
+  font-size: 34px;
+}
 
+h2 {
+  color: pink;
+}
 
+img {
+  width: 100vw;
+  height: auto;
+}
 
+.cap {
+  color: thistle;
+}
 
+a:link {
+  color: thistle;
+}
 
+a:visited {
+  color: plum;
+}
 
+a:hover {
+  color: mediumturquoise;
+}
+
+a:active{
+  color: mediumpurple;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
 
 
 /*No touch*/
